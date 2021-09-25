@@ -10,5 +10,5 @@
 * _Ordered_
 * _Designed_
 
-![IMAGES/mx_key_pcb_top.png]()
-![IMAGES/mx_key_pcb_bottom.png]()
+![PCB Board TOP](IMAGES/mx_key_pcb_top.png)
+![PCB Board Bttom](IMAGES/mx_key_pcb_bottom.png)
