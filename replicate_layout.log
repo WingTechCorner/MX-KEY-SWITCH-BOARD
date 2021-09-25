@@ -1,0 +1,154 @@
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 305:Plugin executed on: 'darwin'
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Dec 23 2020, 16:11:24) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.9-0-10_14)
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 70 started
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 340:Preparing replicator with SW1 as a reference
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.replicatelayout 215:getting project hierarchy from schematics
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.replicatelayout 217:Project hierarchy looks like:
+{u'614F1BC6': [u'sheet614F1BC4', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1A10': [u'sheet614F1A0E', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F26AE': [u'sheet614F26AC', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1C92': [u'sheet614F1C90', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1A82': [u'sheet614F1A80', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1B69': [u'sheet614F1B67', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1CE6': [u'sheet614F1CE4', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F2672': [u'sheet614F2670', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1AF6': [u'sheet614F1AF4', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1C27': [u'sheet614F1C25', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F178C': [u'1KEY-MAIN', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1D62': [u'sheet614F1D60', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch']}
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.replicatelayout 225:getting a list of all footprints on board
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 367:source anchor footprint is u'SW1'
+Located on:[u'sheet614F2670']
+With filenames:[u'one-key.sch']
+With sheet_id:[u'sheet614F2670']
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'SW12', [u'sheet614F26AC']), (u'SW11', [u'sheet614F1D60']), (u'SW10', [u'sheet614F1CE4']), (u'SW9', [u'sheet614F1C90']), (u'SW8', [u'sheet614F1C25']), (u'SW7', [u'sheet614F1BC4']), (u'SW6', [u'sheet614F1B67']), (u'SW5', [u'sheet614F1AF4']), (u'SW4', [u'sheet614F1A80']), (u'SW3', [u'sheet614F1A0E']), (u'SW2', [u'1KEY-MAIN']), (u'SW1', [u'sheet614F2670'])]
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 384:Showing dialog
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(0, 20)
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1680, 1050)
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1474, 126)
+09-25 05:49:43 Kicad_action_plugins.replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1161, 126)
+09-25 05:49:48 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet614F2670', file:u'one-key.sch'
+09-25 05:49:48 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'sheet614F2670']
+09-25 05:49:48 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'SW12', u'SW11', u'SW10', u'SW9', u'SW8', u'SW7', u'SW6', u'SW5', u'SW4', u'SW3', u'SW2', u'SW1']
+09-25 05:49:48 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/614F26AE/614F0979', u'/614F1D62/614F0979', u'/614F1CE6/614F0979', u'/614F1C92/614F0979', u'/614F1C27/614F0979', u'/614F1BC6/614F0979', u'/614F1B69/614F0979', u'/614F1AF6/614F0979', u'/614F1A82/614F0979', u'/614F1A10/614F0979', u'/614F178C/614F0979', u'/614F2672/614F0979']
+09-25 05:49:48 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet614F26AC'], [u'sheet614F1D60'], [u'sheet614F1CE4'], [u'sheet614F1C90'], [u'sheet614F1C25'], [u'sheet614F1BC4'], [u'sheet614F1B67'], [u'sheet614F1AF4'], [u'sheet614F1A80'], [u'sheet614F1A0E'], [u'1KEY-MAIN'], [u'sheet614F2670']]
+09-25 05:49:48 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'1KEY-MAIN'], [u'sheet614F1A0E'], [u'sheet614F1A80'], [u'sheet614F1AF4'], [u'sheet614F1B67'], [u'sheet614F1BC4'], [u'sheet614F1C25'], [u'sheet614F1C90'], [u'sheet614F1CE4'], [u'sheet614F1D60'], [u'sheet614F2670'], [u'sheet614F26AC']]
+09-25 05:49:48 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'1KEY-MAIN'], [u'sheet614F1A0E'], [u'sheet614F1A80'], [u'sheet614F1AF4'], [u'sheet614F1B67'], [u'sheet614F1BC4'], [u'sheet614F1C25'], [u'sheet614F1C90'], [u'sheet614F1CE4'], [u'sheet614F1D60'], [u'sheet614F26AC']]
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 249:construcing a list of sheets suitable for replication on level:u'sheet614F2670', file:u'one-key.sch'
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 256:Source sheet path up to the level:[u'sheet614F2670']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 260:Footprints on the sheets:
+[u'SW12', u'SW11', u'SW10', u'SW9', u'SW8', u'SW7', u'SW6', u'SW5', u'SW4', u'SW3', u'SW2', u'SW1']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 263:Footprints raw sheet ids:
+[u'/614F26AE/614F0979', u'/614F1D62/614F0979', u'/614F1CE6/614F0979', u'/614F1C92/614F0979', u'/614F1C27/614F0979', u'/614F1BC6/614F0979', u'/614F1B69/614F0979', u'/614F1AF6/614F0979', u'/614F1A82/614F0979', u'/614F1A10/614F0979', u'/614F178C/614F0979', u'/614F2672/614F0979']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 279:All sheets to replicate:
+[[u'sheet614F26AC'], [u'sheet614F1D60'], [u'sheet614F1CE4'], [u'sheet614F1C90'], [u'sheet614F1C25'], [u'sheet614F1BC4'], [u'sheet614F1B67'], [u'sheet614F1AF4'], [u'sheet614F1A80'], [u'sheet614F1A0E'], [u'1KEY-MAIN'], [u'sheet614F2670']]
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 284:All sheets to replicate sorted:
+[[u'1KEY-MAIN'], [u'sheet614F1A0E'], [u'sheet614F1A80'], [u'sheet614F1AF4'], [u'sheet614F1B67'], [u'sheet614F1BC4'], [u'sheet614F1C25'], [u'sheet614F1C90'], [u'sheet614F1CE4'], [u'sheet614F1D60'], [u'sheet614F2670'], [u'sheet614F26AC']]
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 290:All sheets to replicate sorted and without source sheet:
+[[u'1KEY-MAIN'], [u'sheet614F1A0E'], [u'sheet614F1A80'], [u'sheet614F1AF4'], [u'sheet614F1B67'], [u'sheet614F1BC4'], [u'sheet614F1C25'], [u'sheet614F1C90'], [u'sheet614F1CE4'], [u'sheet614F1D60'], [u'sheet614F26AC']]
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.action_replicate_layout 179:Replicating layout
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 994:Starting replication of sheets: [[u'1KEY-MAIN'], [u'sheet614F1A0E'], [u'sheet614F1A80'], [u'sheet614F1AF4'], [u'sheet614F1B67'], [u'sheet614F1BC4'], [u'sheet614F1C25'], [u'sheet614F1C90'], [u'sheet614F1CE4'], [u'sheet614F1D60'], [u'sheet614F26AC']]
+on level: [u'sheet614F2670']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+09-25 05:49:50 root 261:updating GUI message: 'Preparing for replication'
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 556:Getting the list of source footprints
+09-25 05:49:50 root 266:updating GUI with: 0
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 560:Getting the list of all the remaining footprints
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 564:Getting nets local to source footprints
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 568:Getting source bounding box
+09-25 05:49:50 root 266:updating GUI with: 37
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 572:Getting source tracks
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 576:Getting source zones
+09-25 05:49:50 root 266:updating GUI with: 62
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 580:Getting source text items
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 584:Getting source text items
+09-25 05:49:50 root 266:updating GUI with: 87
+09-25 05:49:50 root 261:updating GUI message: 'Replicating footprints'
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 590:Replicating footprints
+09-25 05:49:50 root 266:updating GUI with: 0
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'1KEY-MAIN']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1A0E']
+09-25 05:49:50 root 266:updating GUI with: 15
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1A80']
+09-25 05:49:50 root 266:updating GUI with: 27
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1AF4']
+09-25 05:49:50 root 266:updating GUI with: 36
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1B67']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1BC4']
+09-25 05:49:50 root 266:updating GUI with: 51
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1C25']
+09-25 05:49:50 root 266:updating GUI with: 63
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1C90']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1CE4']
+09-25 05:49:50 root 266:updating GUI with: 78
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F1D60']
+09-25 05:49:50 root 266:updating GUI with: 90
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 596:Replicating footprints on sheet [u'sheet614F26AC']
+09-25 05:49:50 root 261:updating GUI message: 'Replicating tracks'
+09-25 05:49:50 root 266:updating GUI with: 0
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 720:Replicating tracks
+09-25 05:49:50 root 266:updating GUI with: 0
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'1KEY-MAIN']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1A0E']
+09-25 05:49:50 root 266:updating GUI with: 9
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1A80']
+09-25 05:49:50 root 266:updating GUI with: 23
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1AF4']
+09-25 05:49:50 root 266:updating GUI with: 35
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1B67']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1BC4']
+09-25 05:49:50 root 266:updating GUI with: 45
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1C25']
+09-25 05:49:50 root 266:updating GUI with: 56
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1C90']
+09-25 05:49:50 root 266:updating GUI with: 67
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1CE4']
+09-25 05:49:50 root 266:updating GUI with: 77
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F1D60']
+09-25 05:49:50 root 266:updating GUI with: 88
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 726:Replicating tracks on sheet [u'sheet614F26AC']
+09-25 05:49:50 root 266:updating GUI with: 99
+09-25 05:49:50 root 261:updating GUI message: 'Replicating zones'
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 771:Replicating zones
+09-25 05:49:50 root 266:updating GUI with: 0
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'1KEY-MAIN']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1A0E']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1A80']
+09-25 05:49:50 root 266:updating GUI with: 19
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1AF4']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1B67']
+09-25 05:49:50 root 266:updating GUI with: 37
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1BC4']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1C25']
+09-25 05:49:50 root 266:updating GUI with: 55
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1C90']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1CE4']
+09-25 05:49:50 root 266:updating GUI with: 73
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F1D60']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 778:Replicating zones on sheet [u'sheet614F26AC']
+09-25 05:49:50 root 266:updating GUI with: 92
+09-25 05:49:50 root 261:updating GUI message: 'Replicating text'
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 837:Replicating text
+09-25 05:49:50 root 266:updating GUI with: 0
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'1KEY-MAIN']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1A0E']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1A80']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1AF4']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1B67']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1BC4']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1C25']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1C90']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1CE4']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F1D60']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 844:Replicating text on sheet [u'sheet614F26AC']
+09-25 05:49:50 root 261:updating GUI message: 'Replicating drawings'
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 868:Replicating drawings
+09-25 05:49:50 root 266:updating GUI with: 0
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'1KEY-MAIN']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1A0E']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1A80']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1AF4']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1B67']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1BC4']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1C25']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1C90']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1CE4']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F1D60']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.replicatelayout 874:Replicating drawings on sheet [u'sheet614F26AC']
+09-25 05:49:50 Kicad_action_plugins.replicate_layout.action_replicate_layout 201:Replication complete

@@ -1,0 +1,14 @@
+09-25 05:49:07 Kicad_action_plugins.place_footprints.action_place_footprints 414:Plugin executed on: 'darwin'
+09-25 05:49:07 Kicad_action_plugins.place_footprints.action_place_footprints 415:Plugin executed with python version: '2.7.16 (default, Dec 23 2020, 16:11:24) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
+09-25 05:49:07 Kicad_action_plugins.place_footprints.action_place_footprints 416:KiCad build version: (5.1.9-0-10_14)
+09-25 05:49:07 Kicad_action_plugins.place_footprints.action_place_footprints 417:Place footprints plugin version: 54 started
+09-25 05:49:09 Kicad_action_plugins.place_footprints.place_footprints 213:getting project hierarchy from schematics
+09-25 05:49:09 Kicad_action_plugins.place_footprints.place_footprints 228:getting a list of all footprints on board
+09-25 05:49:09 Kicad_action_plugins.place_footprints.action_place_footprints 472:Reference designator is: SW
+09-25 05:49:09 Kicad_action_plugins.place_footprints.action_place_footprints 473:Rerefence number is: 1
+09-25 05:49:09 Kicad_action_plugins.place_footprints.action_place_footprints 504:Sorted and filtered list:
+[u'SW1', u'SW2', u'SW3', u'SW4', u'SW5', u'SW6', u'SW7', u'SW8', u'SW9', u'SW10', u'SW11', u'SW12']
+09-25 05:49:30 Kicad_action_plugins.place_footprints.action_place_footprints 535:Modules to place:
+[u'SW1', u'SW2', u'SW3', u'SW4', u'SW5', u'SW6', u'SW7', u'SW8', u'SW9', u'SW10', u'SW11', u'SW12']
+09-25 05:49:30 Kicad_action_plugins.place_footprints.place_footprints 406:Starting placing with matrix layout
+09-25 05:49:30 Kicad_action_plugins.place_footprints.action_place_footprints 602:Placing complete
