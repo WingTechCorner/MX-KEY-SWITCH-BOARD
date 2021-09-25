@@ -6,9 +6,9 @@
 
 # CURRENT STATUS
 
-* *Pending production parts arriving to be tested*
+* Pending production parts arriving to be tested
 * _Ordered_
 * _Designed_
 
-!()[IMAGES/mx_key_pcb_top.png]
-!()[IMAGES/mx_key_pcb_bottom.png]
+![IMAGES/mx_key_pcb_top.png]()
+![IMAGES/mx_key_pcb_bottom.png]()
