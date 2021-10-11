@@ -1,35 +1,4 @@
-10-08 01:05:26 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'darwin'
-10-08 01:05:26 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '2.7.16 (default, Dec 23 2020, 16:11:24) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
-10-08 01:05:26 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 162:KiCad build version: (5.1.9-0-10_14)
-10-08 01:05:26 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
-10-08 01:05:27 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 200:Save layout chosen
-10-08 01:05:27 Kicad_action_plugins.save_restore_layout.save_restore_layout 845:Saving the current board temporary in order to leave current layout intact
-10-08 01:05:27 Kicad_action_plugins.save_restore_layout.save_restore_layout 855:Getting schematics info
-10-08 01:05:27 Kicad_action_plugins.save_restore_layout.save_restore_layout 180:getting project hierarchy from schematics
-10-08 01:05:27 Kicad_action_plugins.save_restore_layout.save_restore_layout 182:Project hierarchy looks like:
-{u'614F1BC6': [u'sheet614F1BC4', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1A10': [u'sheet614F1A0E', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F26AE': [u'sheet614F26AC', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1C92': [u'sheet614F1C90', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1A82': [u'sheet614F1A80', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1B69': [u'sheet614F1B67', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1CE6': [u'sheet614F1CE4', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F2672': [u'sheet614F2670', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1AF6': [u'sheet614F1AF4', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1C27': [u'sheet614F1C25', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F178C': [u'1KEY-MAIN', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch'], u'614F1D62': [u'sheet614F1D60', u'/Users/wingtangwong/Documents/KICAD/PROJECTS/MX-KEY-SWITCH-BOARD/one-key.sch']}
-10-08 01:05:27 Kicad_action_plugins.save_restore_layout.save_restore_layout 857:Getting layout info
-10-08 01:05:27 Kicad_action_plugins.save_restore_layout.save_restore_layout 256:getting a list of all footprints on board
-10-08 01:05:27 Kicad_action_plugins.save_restore_layout.save_restore_layout 859:Updating layout info with schematics info
-10-08 01:05:30 root 53:highlighting module: u'J4'
-10-08 01:05:30 root 53:highlighting module: u'J3'
-10-08 01:05:30 root 53:highlighting module: u'J2'
-10-08 01:05:30 root 53:highlighting module: u'J1'
-10-08 01:05:30 root 53:highlighting module: u'WS2'
-10-08 01:05:30 root 53:highlighting module: u'SW2'
-10-08 01:05:30 root 53:highlighting module: u'D1'
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 941:Saving layout for level: [u'1KEY-MAIN']
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 942:Calculating hash of the layout schematics
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 946:Saving hash for files: [u'one-key.sch']
-10-08 01:05:49 root 956:Source modules are: [u'J4', u'J3', u'J2', u'J1', u'WS2', u'SW2', u'D1']
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 966:Removing everything else from the layout
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 880:Removing text
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 863:Removing drawing
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 897:Removing zones
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 913:Removing tracks
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 916:Bounding box points: (-102425001, -78174999, 135924999, 158650001)
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 936:Removing modules
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 985:Saving layout in temporary file
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 988:Reading layout as text
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 995:Saving layout data
-10-08 01:05:49 Kicad_action_plugins.save_restore_layout.save_restore_layout 1002:Succesfully saved the layout
+10-08 11:27:50 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 160:Plugin executed on: 'darwin'
+10-08 11:27:50 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 161:Plugin executed with python version: '2.7.16 (default, Dec 23 2020, 16:11:24) \n[GCC 4.2.1 Compatible Apple LLVM 10.0.1 (clang-1001.0.46.4)]'
+10-08 11:27:50 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 162:KiCad build version: (5.1.9-0-10_14)
+10-08 11:27:50 Kicad_action_plugins.save_restore_layout.action_save_restore_layout 163:Save/Restore Layout plugin version: 51 started
